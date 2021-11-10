@@ -10,7 +10,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload. -cowboy tanaka
+          Edit <code>src/App.js</code> and save to reload. -Red Velasco
         </p>
         <Greet name = "Tony" heroName = "Iron Man">
           <Message/>
