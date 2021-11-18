@@ -13,6 +13,11 @@ const Hello = () => {
                 setHello(response.data);
             }
         )
+        .catch(
+            err => {
+                console.log("Something went wrong!");
+            }
+        )
     })
     return hello;
 }
